@@ -129,7 +129,7 @@ $(window).on('load', function() {
           .bindPopup("<b>" + point['Name'] + '</b><br>' +
           (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
           point['Description'],{
-            maxHeight: "50px",
+            maxHeight: 300,
           });
 
         if (layers !== undefined && layers.length !== 1) {
